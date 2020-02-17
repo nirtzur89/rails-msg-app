@@ -1,18 +1,17 @@
 .navbar {
-    color: white;
+    color: black;
     background-color: royalblue;
 }
 
-#logo{
-    text-transform: uppercase;
+.nav-link, .navbar-brand{
+    color:white;
+    text-decoration: none;
 }
 
-.right {
-    margin-right: 0;
-}
-
-* {
-    color: red;
+.margin {
+    margin: auto 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 @import '~bootstrap/scss/bootstrap';

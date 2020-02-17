@@ -8,6 +8,9 @@
 <%= stylesheet_pack_tag 'styles', media: 'all', 'data-turbolinks-track': 'reload' %>
 <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   <body>
+  <%= render 'layouts/navbar' %>
+  <div class="container-fluid">
     <%= yield %>
+  </div>
   </body>
 </html>
