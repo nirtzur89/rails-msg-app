@@ -1,1 +1,29 @@
-<h1>INDEX</h1>
+<div class='general'>
+    <div class='head'>
+        Chat Page
+    </div>
+    <div class='page'>
+        <div class='chatbox'>
+            <div class="card">
+                <div class="card-header">
+                    Nir david
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <%= render @messages%>
+                    </blockquote>
+                </div>
+                <form class='row'>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class='participants'>
+            <p>NIR</p>
+            <p>NIR</p>
+        </div>
+    </div>
+</div>

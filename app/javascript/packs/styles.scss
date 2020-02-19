@@ -14,4 +14,99 @@
     justify-content: space-between;
 }
 
+.general{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #131424;
+}
+
+.head{
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    margin: 2vh 0;
+    text-transform: uppercase;
+}
+
+// msgs page 
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    max-width: 50vw;
+    height: fit-content;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: auto 10px;
+    box-shadow: -1px 6px 18px 0px rgba(17,48,28,0.68);
+}
+
+.my{
+    background-color: rgb(225, 238, 232);
+    margin-left: 50px;
+}
+
+.other{
+    background-color: rgb(116, 216, 33);
+    margin-left: 10px;
+
+}
+
+.name, .text {
+    margin: auto 6px;
+}
+
+.blockquote{
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.chatbox{
+    width:70vw;
+}
+
+.row {
+    display: flex;
+}
+
+.page {
+    display: flex;
+}
+
+.form-group{
+    width: 50vw;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.btn{
+    height: 40px;
+    margin: auto 10px;
+    text-align: center;
+}
+
+.form-control{
+    margin: auto;
+}
+
+.participants{
+    width: 15vw;
+}
+
+// login page 
+
+// .mid{
+//     margin: auto;
+//     justify-content: center;
+//     text-align: center;
+// }
+
+.log{
+    width: 40vw;
+    margin: auto 20px;
+    height:300px;
+}
+
 @import '~bootstrap/scss/bootstrap';
